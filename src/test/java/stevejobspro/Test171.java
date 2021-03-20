@@ -3,16 +3,13 @@ package stevejobspro;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.Command;
 import org.openqa.selenium.devtools.DevTools;
-import org.testng.annotations.Test;
-
 import com.google.common.collect.ImmutableMap;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test171 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		//Open browser
 		WebDriverManager.chromedriver().setup();

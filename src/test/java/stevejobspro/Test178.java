@@ -3,14 +3,12 @@ package stevejobspro;
 import java.util.Scanner;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test178 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) 
 	{
 		//Take data from keyboard
 		Scanner sc=new Scanner(System.in);

@@ -21,7 +21,7 @@ public class Links
 {
 	public static void main(String[] args) throws Exception
 	{
-		//open browser i
+		//open browser 
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();

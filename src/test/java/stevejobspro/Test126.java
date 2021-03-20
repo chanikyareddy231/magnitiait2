@@ -3,14 +3,12 @@ package stevejobspro;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test126 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		//open browser and launch site
         WebDriverManager.chromedriver().setup();

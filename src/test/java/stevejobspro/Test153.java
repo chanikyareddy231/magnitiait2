@@ -5,14 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.locators.RelativeLocator.RelativeBy;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test153 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		//open Browser 
 		WebDriverManager.chromedriver().setup();

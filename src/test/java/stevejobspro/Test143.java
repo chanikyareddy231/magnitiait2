@@ -5,14 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test143 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args)
 	{
 		//open Browser 
 		WebDriverManager.chromedriver().setup();

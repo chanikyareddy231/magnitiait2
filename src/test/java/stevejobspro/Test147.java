@@ -7,14 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test147 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) 
 	{
 		//open Browser 
 		WebDriverManager.chromedriver().setup();

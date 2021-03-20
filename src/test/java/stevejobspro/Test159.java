@@ -2,15 +2,13 @@ package stevejobspro;
 
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test159 
 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) 
 	{
 		//open Browser 
 		WebDriverManager.firefoxdriver().setup();

@@ -6,14 +6,11 @@ import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.StringSelection;
 import java.util.Scanner;
 
-import org.testng.annotations.Test;
-
 import com.sun.glass.events.KeyEvent;
 
 public class Test176 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception 
 	{
 		//Take data from keyboard
 		Scanner sc=new Scanner(System.in);

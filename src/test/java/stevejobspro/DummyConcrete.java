@@ -4,6 +4,6 @@ public class DummyConcrete implements Dummy
 {
       public void display()
       {
-    	  System.out.println("hi to all");
+    	  System.out.println("hi");
       }
 }

@@ -7,14 +7,12 @@ import org.openqa.selenium.devtools.Command;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v87.network.Network;
 import org.openqa.selenium.devtools.v87.network.model.ConnectionType;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test165 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) 
 	{
 		//Open browser via browser server software
 		WebDriverManager.chromedriver().setup();

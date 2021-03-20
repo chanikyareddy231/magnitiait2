@@ -1,6 +1,6 @@
 package stevejobspro;
 
-public interface Dummy
+public interface Dummy 
 {
    public void display();
 }

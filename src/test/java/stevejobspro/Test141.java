@@ -5,15 +5,13 @@ import java.util.Set;
 
 import org.openqa.selenium.ScriptKey;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test141 
 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		//open browser 
         WebDriverManager.chromedriver().setup();

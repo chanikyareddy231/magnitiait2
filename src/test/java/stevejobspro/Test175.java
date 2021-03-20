@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 
 import com.sun.glass.events.KeyEvent;
 
@@ -16,8 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test175 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args)throws Exception
 	{
 		//Open browser
 		WebDriverManager.chromedriver().setup();

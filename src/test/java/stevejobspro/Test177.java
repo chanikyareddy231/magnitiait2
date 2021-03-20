@@ -6,7 +6,6 @@ import java.awt.datatransfer.StringSelection;
 import java.util.Scanner;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 import com.sun.glass.events.KeyEvent;
 
@@ -14,8 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test177 {
 
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		//Take data from keyboard
 		Scanner sc=new Scanner(System.in);

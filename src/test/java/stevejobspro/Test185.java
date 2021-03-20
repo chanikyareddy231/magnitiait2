@@ -7,12 +7,10 @@ import javax.imageio.ImageIO;
 
 import org.sikuli.script.Screen;
 import org.sikuli.script.ScreenImage;
-import org.testng.annotations.Test;
 
 public class Test185 
 {
-	@Test
-	public void method() throws Exception
+	public static void main(String[] args) throws Exception
 	{
 		Screen s=new Screen();
 		s.click("src\\test\\resources\\eclipse.png");

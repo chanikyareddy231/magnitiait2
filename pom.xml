@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>magnitia</groupId>
-  <artifactId>abdulkalampro</artifactId>
+  <artifactId>abdulkalampro1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
     <dependency>
@@ -27,11 +27,6 @@
     	<scope>system</scope>
     	<systemPath>C:\batch251\eclipse-java-photon-R-win32-x86_64\abdulkalampro\src\test\resources\sikulixapi.jar</systemPath>
 	</dependency>
-	<dependency>
-    	<groupId>org.testng</groupId>
-    	<artifactId>testng</artifactId>
-    	<version>7.1.0</version>
-    	<scope>test</scope>
-	</dependency>	
+	
   </dependencies>
 </project>

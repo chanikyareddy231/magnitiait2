@@ -6,12 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test172 
 {
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		//Open browser
 		WebDriverManager.chromedriver().setup();

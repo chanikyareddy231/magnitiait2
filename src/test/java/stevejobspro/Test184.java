@@ -11,12 +11,14 @@ import org.sikuli.script.Button;
 import org.sikuli.script.Location;
 import org.sikuli.script.Match;
 import org.sikuli.script.Screen;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test184
 {
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		///open Browser 
 		WebDriverManager.chromedriver().setup();

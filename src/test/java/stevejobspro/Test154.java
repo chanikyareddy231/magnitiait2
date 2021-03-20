@@ -6,12 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test154
 {
-	public static void main(String[] args) 
+	@Test
+	public void method() throws Exception
 	{
 		//Take data from keyboard
 		Scanner sc=new Scanner(System.in);

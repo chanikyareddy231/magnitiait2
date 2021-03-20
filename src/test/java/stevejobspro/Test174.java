@@ -6,12 +6,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test174 {
 
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		//Open browser
 		WebDriverManager.chromedriver().setup();

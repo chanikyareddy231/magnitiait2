@@ -12,7 +12,7 @@ public class MyListenerBodies implements WebDriverEventListener
 	@Override
 	public void beforeAlertAccept(WebDriver driver)
 	{
-		System.out.println("I am going to accept an alert");
+		System.out.println("I am going to accept  alert");
 		
 	}
 

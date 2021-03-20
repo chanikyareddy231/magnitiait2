@@ -3,10 +3,12 @@ package stevejobspro;
 import org.sikuli.script.Button;
 import org.sikuli.script.Location;
 import org.sikuli.script.Screen;
+import org.testng.annotations.Test;
 
 public class Test182 
 {
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		Screen s=new Screen();
 		s.click("src\\test\\resources\\eclipse.png");

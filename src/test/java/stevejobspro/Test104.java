@@ -5,6 +5,7 @@ import java.io.File;
 import javax.imageio.ImageIO;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import ru.yandex.qatools.ashot.AShot;
@@ -14,7 +15,8 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategy;
 
 public class Test104 {
 
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		//open browser and launch site
 		WebDriverManager.chromedriver().setup();

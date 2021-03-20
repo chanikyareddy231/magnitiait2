@@ -1,8 +1,11 @@
 package stevejobspro;
 
+import org.testng.annotations.Test;
+
 public class Test161 
 {
-	public static void main(String[] args) 
+	@Test
+	public void method() throws Exception
 	{
 		//open firefox browser
 		

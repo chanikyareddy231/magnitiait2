@@ -9,7 +9,7 @@ public class DummyRunner1 {
 		{
 			public void display()
 			{
-				System.out.println("hi");
+				System.out.println("hi to all students");
 			}
 
 		};

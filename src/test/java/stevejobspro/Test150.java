@@ -10,12 +10,14 @@ import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test150 {
 
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		//open Browser 
 		WebDriverManager.chromedriver().setup();

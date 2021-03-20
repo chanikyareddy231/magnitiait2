@@ -6,12 +6,14 @@ import java.util.Scanner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test122 {
 
-	public static void main(String[] args) throws Exception
+	@Test
+	public void method() throws Exception
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter item like Installation/Manufacturing/sales/Project Development/Other");
